@@ -28,7 +28,7 @@
 
 #define EAD_INPUT_BUFFER_SIZE 2048
 
-#define GLOBAL_PROTOCOL_STRING @//Enter your protocol string here, wrapped in ""'s 
+#define GLOBAL_PROTOCOL_STRING @""//Enter your protocol string here, wrapped in ""'s 
 
 - (void)accessoryConnected:(NSNotification *)notification
 {
