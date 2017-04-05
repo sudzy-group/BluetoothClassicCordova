@@ -271,7 +271,6 @@
 
 
 -(void)pairandConnectList:(CDVInvokedUrlCommand *)command{
-    CDVPluginResult *pluginResult = nil;
     [[EAAccessoryManager sharedAccessoryManager] showBluetoothAccessoryPickerWithNameFilter:nil completion:^(NSError *error) {
         if (error) {
             NSLog(@"error :%@", error);
