@@ -28,7 +28,7 @@
 
 #define EAD_INPUT_BUFFER_SIZE 2048
 
-#define GLOBAL_PROTOCOL_STRING @""//Enter your protocol string here, wrapped in ""'s 
+#define GLOBAL_PROTOCOL_STRING @"jp.star-m.starpro"//Enter your protocol string here, wrapped in ""'s
 
 - (void)accessoryConnected:(NSNotification *)notification
 {
@@ -220,7 +220,7 @@
     CDVPluginResult *pluginResult = nil;
     
     if(_accessoriesList >0 && _session){
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
+        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK];
     }else{
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
         
