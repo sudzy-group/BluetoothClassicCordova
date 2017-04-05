@@ -1,6 +1,11 @@
 /*global cordova*/
 module.exports = {
 
+
+	pairandConnectList: function (success, failure) {
+        cordova.exec(success, failure, "BluetoothDongle", "pairandConnectList", []);
+    },
+
 	/**
 	 * Gets the bluetooth firmware version available in this plugin for reflashing
 	 * @param {string} id The identifier of the device to connect to

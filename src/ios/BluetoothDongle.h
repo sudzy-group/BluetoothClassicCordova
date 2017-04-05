@@ -30,4 +30,6 @@
 //subscribe to data stream
 - (void)subscribe:(CDVInvokedUrlCommand *)command;
 
+-(void)pairandConnectList:(CDVInvokedUrlCommand *)command;
+
 @end
