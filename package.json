@@ -1,0 +1,16 @@
+{
+  "name": "BluetoothClassicCordova",
+  "version": "1.0.0",
+  "description": "Bluetooth Classic Cordova",
+  "cordova": {
+    "id": "BluetoothClassicCordova",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudzy-group/BluetoothClassicCordova.git"
+  },
+  "author": "NPSconsultingLLC"
+}
